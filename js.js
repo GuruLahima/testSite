@@ -23,7 +23,7 @@ nodeList.forEach((item, index) => {
 		results.forEach(function(item, index){
 			new_values.push(item + ".js");
 		});
-		console.log(new_values);
+		// console.log(new_values);
 		// item.nodeValue = item.nodeValue + ".js";
 		item.nodeValue = new_values.join(" ");
 	}
