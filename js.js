@@ -1,6 +1,5 @@
+// add '.js' to all words on page that are the content of html elements. should be inserted with the defer attribute
 // Javascript library for jsifying documents
-
-// wait until all page is loaded
 
 // get all elements with content
 var treeWalker = document.createTreeWalker(
@@ -30,9 +29,3 @@ nodeList.forEach((item, index) => {
 
 });
 console.log("Finished jsfying. You are welcome.");
-
-// add '.js' to all words on page that are the content of html elements
-/*public function jsfy(){
-
-	// get
-}*/
